@@ -13,6 +13,8 @@
         public ExpenseHandler(IExpenseApprover expenseApprover)
         {
             _approver = expenseApprover;
+
+            // Null object pattern
             _next = EndOfChainExpenseHandler.Default;
         }
 
