@@ -3,7 +3,7 @@
     using Enums;
     using Interfaces;
 
-    public class Employee : IExpenseApprover
+    public class UniversityEmployee : IExpenseApprover
     {
         private readonly decimal _approvalLimit;
 
@@ -11,7 +11,7 @@
 
         #region CONSTRUCTORS
 
-        public Employee(string name, decimal approvalLimit)
+        public UniversityEmployee(string name, decimal approvalLimit)
         {
             Name = name;
             _approvalLimit = approvalLimit;

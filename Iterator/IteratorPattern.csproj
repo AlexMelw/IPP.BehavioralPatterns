@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{45DCEC23-DD4D-4BFC-B440-0099E5632724}</ProjectGuid>
+    <ProjectGuid>{FD293BCA-3F49-4B6A-919E-1AD8B889ACCC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ChainOfResponsibilityAppliance</RootNamespace>
-    <AssemblyName>ChainOfResponsibilityAppliance</AssemblyName>
+    <RootNamespace>IteratorPattern</RootNamespace>
+    <AssemblyName>IteratorPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,17 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntryPoint.cs" />
-    <Compile Include="Enums\ApprovalResponse.cs" />
-    <Compile Include="Helpers\ConsoleInput.cs" />
-    <Compile Include="Models\Employee.cs" />
-    <Compile Include="Handlers\EndOfChainExpenseHandler.cs" />
-    <Compile Include="Handlers\ExpenseHandler.cs" />
-    <Compile Include="Models\ExpenseReport.cs" />
-    <Compile Include="Interfaces\IExpenseApprover.cs" />
-    <Compile Include="Interfaces\IExpenseHandler.cs" />
-    <Compile Include="Interfaces\IExpenseReport.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

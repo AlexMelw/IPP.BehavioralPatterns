@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{45DCEC23-DD4D-4BFC-B440-0099E5632724}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibility\ChainOfResponsibilityPattern.csproj", "{45DCEC23-DD4D-4BFC-B440-0099E5632724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{83DA2212-302F-44D2-8D23-F25C9253F83B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "Mediator\MediatorPattern.csproj", "{83DA2212-302F-44D2-8D23-F25C9253F83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "Iterator\IteratorPattern.csproj", "{FD293BCA-3F49-4B6A-919E-1AD8B889ACCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{83DA2212-302F-44D2-8D23-F25C9253F83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83DA2212-302F-44D2-8D23-F25C9253F83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83DA2212-302F-44D2-8D23-F25C9253F83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD293BCA-3F49-4B6A-919E-1AD8B889ACCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD293BCA-3F49-4B6A-919E-1AD8B889ACCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD293BCA-3F49-4B6A-919E-1AD8B889ACCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD293BCA-3F49-4B6A-919E-1AD8B889ACCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

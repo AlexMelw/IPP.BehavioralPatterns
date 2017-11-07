@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83DA2212-302F-44D2-8D23-F25C9253F83B}</ProjectGuid>
+    <ProjectGuid>{45DCEC23-DD4D-4BFC-B440-0099E5632724}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Mediator</RootNamespace>
-    <AssemblyName>Mediator</AssemblyName>
+    <RootNamespace>ChainOfResponsibilityPattern</RootNamespace>
+    <AssemblyName>ChainOfResponsibilityPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,14 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IAirTrafficControl.cs" />
-    <Compile Include="Models\Airbus321.cs" />
-    <Compile Include="Models\Aircraft.cs" />
-    <Compile Include="Models\Boeing737200.cs" />
-    <Compile Include="Models\Embraer190.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="Enums\ApprovalResponse.cs" />
+    <Compile Include="Helpers\ConsoleInput.cs" />
+    <Compile Include="Models\UniversityEmployee.cs" />
+    <Compile Include="Handlers\EndOfChainExpenseHandler.cs" />
+    <Compile Include="Handlers\ExpenseHandler.cs" />
+    <Compile Include="Models\ExpenseReport.cs" />
+    <Compile Include="Interfaces\IExpenseApprover.cs" />
+    <Compile Include="Interfaces\IExpenseHandler.cs" />
+    <Compile Include="Interfaces\IExpenseReport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Handler\CIACenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
