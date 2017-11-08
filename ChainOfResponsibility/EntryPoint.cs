@@ -9,6 +9,8 @@
     using Interfaces;
     using Models;
 
+    // Chain of Responsibility + Adapter + Null Object Pattern + Singleton
+
     class Approval
     {
         static void Main()
